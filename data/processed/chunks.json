@@ -1,0 +1,1130 @@
+[
+  {
+    "id": 0,
+    "text": "Roadmap • Computer Security Concepts • Threats, Attacks, and Assets • Malicious Software Overview • Viruses, Worms, and Bots • Rootkits",
+    "source": "1. Overview of Computer Security_032115.pdf",
+    "page": 2
+  },
+  {
+    "id": 1,
+    "text": "Security definition • The NIST Computer Security Handbook defines computer security as: – The protection afforded to an automated information system in order to attain the applicable objectives of preserving the integrity, availability and confidentiality of information system resources",
+    "source": "1. Overview of Computer Security_032115.pdf",
+    "page": 3
+  },
+  {
+    "id": 2,
+    "text": "Computer Security Triad • THREE key objectives are at the heart of computer security – Confidentiality – Integrity – Availability",
+    "source": "1. Overview of Computer Security_032115.pdf",
+    "page": 4
+  },
+  {
+    "id": 3,
+    "text": "Additional Concepts • Two further concepts are often added to the core of computer security – Authenticity (genuine; able to be verified and trusted; confidence in the validity of a transmission, message or message originator) – Accountability / Non-repudiation (actions of an entity can be traced uniquely to that entity)",
+    "source": "1. Overview of Computer Security_032115.pdf",
+    "page": 5
+  },
+  {
+    "id": 4,
+    "text": "Roadmap • Computer Security Concepts • Threats, Attacks, and Assets • Intruders • Malicious Software Overview • Viruses, Worms, and Bots • Rootkits",
+    "source": "1. Overview of Computer Security_032115.pdf",
+    "page": 6
+  },
+  {
+    "id": 5,
+    "text": "Threats • ISO 27005 defines threat as: – A potential cause of an incident, that may result in harm of systems and organization",
+    "source": "1. Overview of Computer Security_032115.pdf",
+    "page": 7
+  },
+  {
+    "id": 6,
+    "text": "Threats • RFC 2828, describes FOUR kinds of threat consequences – Unauthorised Disclosure • Entity gains access to data for which the entity is not authorised – Deception • An event that may result in an authorised entity receiving false data and believing it to be true. – Disruption • An event that interrupts or prevents the correct operation of system of system services and functions. – Usurpation • An event that results in control of system services or functions by an unauthorised entity",
+    "source": "1. Overview of Computer Security_032115.pdf",
+    "page": 8
+  },
+  {
+    "id": 7,
+    "text": "Attacks resulting in Unauthorised Disclosure • Unauthorised Disclosure is a threat to confidentiality. • Attacks include: – Exposure (deliberate or through error) • Release of sensitive information such as credit card number, to an outsider. – Interception • On the Internet, a hacker can gain access to email traffic or other data transfers. – Inference • An adversary is able to gain information from observing the pattern of traffic on a network, such as the amount of traffic between particular pairs of hosts on the network. – Intrusion • An adversary gaining unauthorized access to sensitive data by overcoming the system’s access control protections.",
+    "source": "1. Overview of Computer Security_032115.pdf",
+    "page": 9
+  },
+  {
+    "id": 8,
+    "text": "Attacks resulting in Deception • Deception is a threat to either system integrity or data integrity. • Attacks include: – Masquerade • An attempt by an unauthorized user to gain access to a system by posing as an authorized user; this could happen if the unauthorized user has learned another user’s logon ID and password. – Falsification • This refers to the altering or replacing of valid data or the introduction of false data into a file or database. For example, a student my alter his or her grades on a school database. – Repudiation • A user either denies sending data or a user denies receiving or possessing the data.",
+    "source": "1. Overview of Computer Security_032115.pdf",
+    "page": 10
+  },
+  {
+    "id": 9,
+    "text": "Attacks resulting in Disruption • Disruption is a threat to availability or system integrity. • Attacks include: – Incapacitation • This could occur as a result of physical destruction of or damage to system hardware. • Often malicious software, such as Trojan horses, viruses, or worms, could operate in such a way as to disable a system or some of its services. – Corruption • Malicious software in this context could operate in such a way that system resources or services function in an unintended manner – Obstruction • to interfere with communications by disabling communication links or altering communication control information. • to overload the system by placing excess burden on communication traffic or processing resources.",
+    "source": "1. Overview of Computer Security_032115.pdf",
+    "page": 11
+  },
+  {
+    "id": 10,
+    "text": "d the system by placing excess burden on communication traffic or processing resources.",
+    "source": "1. Overview of Computer Security_032115.pdf",
+    "page": 11
+  },
+  {
+    "id": 11,
+    "text": "Attacks resulting in usurpation • Usurpation is a threat to system integrity. • Attacks include: – Misappropriation • This can include theft of service. • An example is an a distributed denial of service attack, when malicious software is installed on a number of hosts to be used as platforms to launch traffic at a target host. • In this case, the malicious software makes unauthorized use of processor and operating system resources. – Misuse • Misuse can occur either by means of malicious logic or a hacker that has gained unauthorized access to a system. • In either case, security functions can be disabled or thwarted.",
+    "source": "1. Overview of Computer Security_032115.pdf",
+    "page": 12
+  },
+  {
+    "id": 12,
+    "text": "Assets • The assets of a computer system can be categorized as – hardware, – software, – data, – communication lines and networks.",
+    "source": "1. Overview of Computer Security_032115.pdf",
+    "page": 13
+  },
+  {
+    "id": 13,
+    "text": "Roadmap • Computer Security Concepts • Threats, Attacks, and Assets • Intruders • Malicious Software Overview • Viruses, Worms, and Bots • Rootkits",
+    "source": "1. Overview of Computer Security_032115.pdf",
+    "page": 15
+  },
+  {
+    "id": 14,
+    "text": "Malware • General term for any Malicious softWare – Software designed to cause damage – Or use up the resources of a target computer. • Some malware is parasitic – Contained within other software • Some malware is self-replicating, others require some other means to propogate.",
+    "source": "1. Overview of Computer Security_032115.pdf",
+    "page": 16
+  },
+  {
+    "id": 15,
+    "text": "Backdoor • Trapdoor – Secret entry point • allows someone who is aware of the backdoor to gain access without going through the usual security access procedures. – Useful for programmers debugging • But allows unscrupulous programmers to gain unauthorized access.",
+    "source": "1. Overview of Computer Security_032115.pdf",
+    "page": 17
+  },
+  {
+    "id": 16,
+    "text": "Logic Bomb • Explodes when certain conditions are met – Presence or absence of certain files – Particular day of the week – Particular user running application",
+    "source": "1. Overview of Computer Security_032115.pdf",
+    "page": 18
+  },
+  {
+    "id": 17,
+    "text": "Trojan Horse • Useful program that contains hidden code that when invoked performs some unwanted or harmful function • Can be used to accomplish functions indirectly that an unauthorized user could not accomplish directly – User may set file permission so everyone has access",
+    "source": "1. Overview of Computer Security_032115.pdf",
+    "page": 19
+  },
+  {
+    "id": 18,
+    "text": "Mobile Code • Transmitted from remote system to local system • Executed on local system without the user’s explicit instruction • Common example is cross-site scripting attacks",
+    "source": "1. Overview of Computer Security_032115.pdf",
+    "page": 20
+  },
+  {
+    "id": 19,
+    "text": "Multiple-Threat Malware • Multipartite virus infects in multiple ways – Blended attack uses multiple methods – Ex: Nimda has worm, virus, and mobile code characteristics",
+    "source": "1. Overview of Computer Security_032115.pdf",
+    "page": 21
+  },
+  {
+    "id": 20,
+    "text": "Roadmap • Computer Security Concepts • Threats, Attacks, and Assets • Intruders • Malicious Software Overview • Viruses, Worms, and Bots • Rootkits",
+    "source": "1. Overview of Computer Security_032115.pdf",
+    "page": 22
+  },
+  {
+    "id": 21,
+    "text": "Parts of Virus • Software that “infects” other software by modifying them • Modification includes – An infection mechanism – Trigger – Payload",
+    "source": "1. Overview of Computer Security_032115.pdf",
+    "page": 23
+  },
+  {
+    "id": 22,
+    "text": "Virus Stages • During its lifetime, a typical virus goes through the following four phases: – Dormant phase – Propagation phase – Triggering phase – Execution phase 24",
+    "source": "1. Overview of Computer Security_032115.pdf",
+    "page": 24
+  },
+  {
+    "id": 23,
+    "text": "Virus Structure • May be prepended, postpended, or embedded in an executable • When the executable runs, it first executes the virus, then calls the original code of the program",
+    "source": "1. Overview of Computer Security_032115.pdf",
+    "page": 25
+  },
+  {
+    "id": 24,
+    "text": "Virus Classification • There is no simple or universally agreed upon classification scheme for viruses, • It is possible to classify a virus by a number of means including – By target – By Concealment strategy",
+    "source": "1. Overview of Computer Security_032115.pdf",
+    "page": 28
+  },
+  {
+    "id": 25,
+    "text": "by Target • Boot sector infector • File infector • Macro virus",
+    "source": "1. Overview of Computer Security_032115.pdf",
+    "page": 29
+  },
+  {
+    "id": 26,
+    "text": "by Concealment Strategy • Encrypted virus – Random encryption key encrypts remainder of virus • Stealth virus – Hides itself from detection of antivirus software • Polymorphic virus – Mutates with every infection • Metamorphic virus – Mutates with every infection – Rewrites itself completely after every iteration",
+    "source": "1. Overview of Computer Security_032115.pdf",
+    "page": 30
+  },
+  {
+    "id": 27,
+    "text": "Macro Viruses • Platform independent – Most infect Microsoft Word documents • Infect documents, not executable portions of code • Easily spread • File system access controls are of limited use in preventing spread 31",
+    "source": "1. Overview of Computer Security_032115.pdf",
+    "page": 31
+  },
+  {
+    "id": 28,
+    "text": "E-Mail Viruses • May make use of MS Word macro’s • If someone opens the attachment it – Accesses the local address book and sends copies of itself to contacts – May perform local damage",
+    "source": "1. Overview of Computer Security_032115.pdf",
+    "page": 32
+  },
+  {
+    "id": 29,
+    "text": "Worms • Replicates itself • Use network connections to spread form system to system • Email virus has elements of being a worm (self replicating) – But normally requires some intervention to run, so classed as a virus rather than worm 33",
+    "source": "1. Overview of Computer Security_032115.pdf",
+    "page": 33
+  },
+  {
+    "id": 30,
+    "text": "Worm Propagation • Electronic mail facility – A worm mails a copy of itself to other systems • Remote execution capability – A worm executes a copy of itself on another system • Remote log-in capability – A worm logs on to a remote system as a user and then uses commands to copy itself from one system to the other",
+    "source": "1. Overview of Computer Security_032115.pdf",
+    "page": 34
+  },
+  {
+    "id": 31,
+    "text": "Bots • From Robot – Also called Zombie or drone • Program secretly takes of another Internet attached computer • Launch attacks that are difficult to trace to bot’s creator • Collection of bots is a botnet",
+    "source": "1. Overview of Computer Security_032115.pdf",
+    "page": 36
+  },
+  {
+    "id": 32,
+    "text": "Roadmap • Computer Security Concepts • Threats, Attacks, and Assets • Intruders • Malicious Software Overview • Viruses, Worms, and Bots • Rootkits",
+    "source": "1. Overview of Computer Security_032115.pdf",
+    "page": 37
+  },
+  {
+    "id": 33,
+    "text": "Rootkit • Set of programs installed on a system to maintain administrator (or root) access to that system • Hides its existence • Attacker has complete control of the system.",
+    "source": "1. Overview of Computer Security_032115.pdf",
+    "page": 38
+  },
+  {
+    "id": 34,
+    "text": "Rootkit classification • Rootkits can be classified based on whether they can survive a reboot and execution mode. – Persistent – Memory based – User mode – Kernel mode",
+    "source": "1. Overview of Computer Security_032115.pdf",
+    "page": 39
+  },
+  {
+    "id": 35,
+    "text": "Rootkit installation • Often as a trojan – Commonly attached to pirated software • Installed manually after a hacker has gained root access",
+    "source": "1. Overview of Computer Security_032115.pdf",
+    "page": 40
+  },
+  {
+    "id": 36,
+    "text": "Revision questions 1. Define computer security. 2. What are the fundamental requirements addressed by computer security? 3. What is the difference between passive and active security threats? 4. List and briefly define THREE classes of intruders. 5. List and briefly define THREE intruder behavior patterns.",
+    "source": "1. Overview of Computer Security_032115.pdf",
+    "page": 41
+  },
+  {
+    "id": 37,
+    "text": "Revision questions 6. What is the role of compression in the operation of a virus? 7. What is the role of encryption in the operation of a virus? 8. What are typical phases of operation of a virus or worm? 9. In general terms, how does a worm propagate? 10.What is the difference between a bot and a rootkit?",
+    "source": "1. Overview of Computer Security_032115.pdf",
+    "page": 42
+  },
+  {
+    "id": 38,
+    "text": "i MERU UNIVERSITY OF SCIENCE AND TECHNOLOGY DEPARTMENT OF COMPUTER SCIENCE BACHELOR OF SCIENCE IN DATA SCIENCE Diabetes Risk Prediction and Recommendation System CT204/114235/23: Vincent Kyalo Musembi A Research Project Submitted in Partial Fulfillment of the Requirements of the Bachelor of Science in Data Science of Meru University of Science and Technology September 2026",
+    "source": "vincent proposal.pdf",
+    "page": 1
+  },
+  {
+    "id": 39,
+    "text": "ii DECLARATION This research proposal is my original work prepared with no other than the indicated sources and support and has not been presented elsewhere for a different or similar assignment. Student Reg. No. CT204/114235/23 Student Name VINCENT KYALO MUSEMBI",
+    "source": "vincent proposal.pdf",
+    "page": 2
+  },
+  {
+    "id": 40,
+    "text": "iii DEDICATION I dedicate this proposal to my beloved family for their unwavering love, support, and encouragement throughout my academic journey, and to all individuals living with diabetes, with the hope that this research will contribute to the development of innovative solutions that promote early risk assessment and healthier living.",
+    "source": "vincent proposal.pdf",
+    "page": 3
+  },
+  {
+    "id": 41,
+    "text": "iv ACKNOWLEDGEMENT I sincerely thank Meru University of Science and Technology for providing a conducive learning environment and the knowledge that has made this research possible. I am especially grateful to my course advisor, Mr. Anthony Irungu, for his invaluable guidance, constructive advice, and continuous support throughout the preparation of this proposal. I also extend my appreciation to my fellow course mates for their encouragement, collaboration, and the shared learning experiences that have contributed to this journey.",
+    "source": "vincent proposal.pdf",
+    "page": 4
+  },
+  {
+    "id": 42,
+    "text": "v TABLE OF CONTENTS DECLARATION ..................................................................................................................... 1 DEDICATION ......................................................................................................................... 2 TABLE OF CONTENTS ........................................................................................................ 4 3 CHAPTER ONE INTRODUCTION ............................................................................... 6 1.1 Background of Study ...................................................................................................... 6 1.2 Motivation for study ....................................................................................................... 9 1.3 The statement o",
+    "source": "vincent proposal.pdf",
+    "page": 5
+  },
+  {
+    "id": 43,
+    "text": "1.2 Motivation for study ....................................................................................................... 9 1.3 The statement of the Problem ....................................................................................... 10 1.4 Research objectives ...................................................................................................... 11 1.4.1 General objectives .................................................................................................. 11 1.4.2 Specific objectives ................................................................................................. 11 1.5 Significance of the study .............................................................................................. 12 1.6 Scope of the study ..........",
+    "source": "vincent proposal.pdf",
+    "page": 5
+  },
+  {
+    "id": 44,
+    "text": "cance of the study .............................................................................................. 12 1.6 Scope of the study ........................................................................................................ 14 1.7 Assumptions in the study ............................................................................................. 14 1.8 Limitations of study ...................................................................................................... 15 4 CHAPTER TWO LITERATURE REVIEW ................................................................. 15 2.1 Introduction .................................................................................................................. 16 2.2 Literature Review .....................................",
+    "source": "vincent proposal.pdf",
+    "page": 5
+  },
+  {
+    "id": 45,
+    "text": "....................................................................................... 16 2.2 Literature Review ......................................................................................................... 16 2.3 Research Gaps .............................................................................................................. 23 2.4 Chapter Summary ......................................................................................................... 24 5 CHAPTER THREE RESEARCH METHODOLOGY ................................................. 25 3.1 Introduction .................................................................................................................. 26 3.1.1 Overview of the Research Methodology..................................................",
+    "source": "vincent proposal.pdf",
+    "page": 5
+  },
+  {
+    "id": 46,
+    "text": "...................................................... 26 3.1.1 Overview of the Research Methodology................................................................ 26 3.1.2 Justification of the Chosen Methodology .............................................................. 26 3.2 Research Design ........................................................................................................... 27 3.2.1 Type of Study ......................................................................................................... 27 3.2.2 Research Approach ................................................................................................ 28 3.2.3 Research Framework .............................................................................................. 28 3.3 Data Sour",
+    "source": "vincent proposal.pdf",
+    "page": 5
+  },
+  {
+    "id": 47,
+    "text": ".......... 28 3.2.3 Research Framework .............................................................................................. 28 3.3 Data Source and Collection .......................................................................................... 29 3.3.1 Description of the Data Source .............................................................................. 29 3.3.2 Description of Dataset Attributes ........................................................................... 29 3.3.3 Data Acquisition Techniques ................................................................................. 30 3.4 Data Preprocessing and Preparation ............................................................................. 31",
+    "source": "vincent proposal.pdf",
+    "page": 5
+  },
+  {
+    "id": 48,
+    "text": "aration ............................................................................. 31",
+    "source": "vincent proposal.pdf",
+    "page": 5
+  },
+  {
+    "id": 49,
+    "text": "vi 3.4.1 Data Inspection and Exploration ............................................................................ 31 3.4.2 Data Cleaning Methods .......................................................................................... 31 3.4.3 Handling Missing and Invalid Values .................................................................... 32 3.4.4 Outlier Detection and Handling ............................................................................. 32 3.4.5 Data Transformation and Feature Scaling.............................................................. 33 3.4.6 Data Splitting and Class Distribution ..................................................................... 33 3.5 Exploratory Data Analysis ...................................................................",
+    "source": "vincent proposal.pdf",
+    "page": 6
+  },
+  {
+    "id": 50,
+    "text": "................................................. 33 3.5 Exploratory Data Analysis ........................................................................................... 34 3.5.1 Descriptive Statistical Analysis ............................................................................. 34 3.5.2 Analysis of Relationships Between Variables ....................................................... 34 3.5.3 Identification of Relevant Features ........................................................................ 35 3.5.4 Tools and Software Used ....................................................................................... 35 3.6 Machine Learning Model Development ....................................................................... 36 3.6.1 Model Selection ..................",
+    "source": "vincent proposal.pdf",
+    "page": 6
+  },
+  {
+    "id": 51,
+    "text": "Machine Learning Model Development ....................................................................... 36 3.6.1 Model Selection ..................................................................................................... 36 3.6.2 Logistic Regression Model Development .............................................................. 37 3.6.3 Random Forest Model Development ..................................................................... 37 3.6.4 Model Training and Testing ................................................................................... 38 3.6.5 Model Configuration and Parameter Selection ...................................................... 38 3.7 Model Evaluation and Comparison ..............................................................................",
+    "source": "vincent proposal.pdf",
+    "page": 6
+  },
+  {
+    "id": 52,
+    "text": "................................ 38 3.7 Model Evaluation and Comparison .............................................................................. 38 3.7.1 Evaluation Metrics ................................................................................................. 39 3.7.2 Confusion Matrix Analysis .................................................................................... 39 3.7.3 Model Performance Comparison ........................................................................... 40 3.7.4 Selection of the Best Performing Model ................................................................ 40 3.8 Model Interpretation and Recommendation Development .......................................... 41 3.8.1 Identification of Important Prediction Factors ..................",
+    "source": "vincent proposal.pdf",
+    "page": 6
+  },
+  {
+    "id": 53,
+    "text": "n and Recommendation Development .......................................... 41 3.8.1 Identification of Important Prediction Factors ....................................................... 41 3.8.2 Development of the Rule-Based Recommendation Component ........................... 41 3.8.3 Mapping Risk Factors to Lifestyle Recommendations .......................................... 42 3.8.4 Generation of Prediction and Recommendation Reports ....................................... 42 3.9 System Design and Implementation ............................................................................. 42 3.9.1 System Architecture ............................................................................................... 43 3.9.2 System Development Tools and Technologies .......................",
+    "source": "vincent proposal.pdf",
+    "page": 6
+  },
+  {
+    "id": 54,
+    "text": "........................................................................... 43 3.9.2 System Development Tools and Technologies ...................................................... 43 3.9.3 Integration of the Selected Model .......................................................................... 44 3.9.4 Development of the User Interface Using Javascript ............................................. 44 3.9.5 System Testing ....................................................................................................... 44 3.10 Ethical Considerations ................................................................................................ 45",
+    "source": "vincent proposal.pdf",
+    "page": 6
+  },
+  {
+    "id": 55,
+    "text": "vii 3.10.1 Data Privacy and Security .................................................................................... 45 3.10.2 Responsible Use of Health Predictions ................................................................ 45 3.10.3 Ethical Implications of the Recommendation System ......................................... 46 3.11 Research Limitations .................................................................................................. 46 3.11.1 Potential Dataset Biases ....................................................................................... 46 3.11.2 Limitations of the Selected Dataset...................................................................... 47 3.11.3 Limitations of the Models and Methodology ............................................",
+    "source": "vincent proposal.pdf",
+    "page": 7
+  },
+  {
+    "id": 56,
+    "text": "..................................................... 47 3.11.3 Limitations of the Models and Methodology ....................................................... 47 3.12 Chapter Summary ....................................................................................................... 48 3.12.1 Recap of the Methodological Steps ..................................................................... 48 3.12.2 Justification of the Selected Methods .................................................................. 48 REFERENCES ...................................................................................................................... 50 APPENDICES ....................................................................................................................... 50 Proposed pr",
+    "source": "vincent proposal.pdf",
+    "page": 7
+  },
+  {
+    "id": 57,
+    "text": ". 50 APPENDICES ....................................................................................................................... 50 Proposed project budget ..................................................................................................... 51 Work plan ........................................................................................................................... 51 1 2",
+    "source": "vincent proposal.pdf",
+    "page": 7
+  },
+  {
+    "id": 58,
+    "text": "1 3 CHAPTER ONE INTRODUCTION 1.1 Background of Study The rapid increase in non-communicable diseases (NCDs) has become a major public health concern worldwide, with diabetes mellitus emerging as one of the leading causes of morbidity, premature mortality, and escalating healthcare expenditure. Diabetes is a chronic metabolic disorder characterized by elevated blood glucose levels resulting from impaired insulin secretion, insulin action, or both. The disease is associated with severe long-term complications, including cardiovascular disease, chronic kidney disease, diabetic retinopathy, neuropathy, and lower-limb amputations, which significantly affect patients' quality of life and place considerable pressure on healthcare systems. According to (Alejandro c, Lucia A, 2023), diabetes was re",
+    "source": "vincent proposal.pdf",
+    "page": 8
+  },
+  {
+    "id": 59,
+    "text": "tly affect patients' quality of life and place considerable pressure on healthcare systems. According to (Alejandro c, Lucia A, 2023), diabetes was responsible for approximately 1.5 million direct deaths globally in 2021, while the (Matshidiso, 2022) estimates that over 589 million adults aged between 20 and 79 years are currently living with diabetes, with the number expected to rise substantially over the coming decades if effective preventive interventions are not implemented. These trends demonstrate the urgent need for innovative strategies that facilitate early risk identification and timely intervention (Cho, N. H. Shaw, J. E., Karuranga, S., Huang, Y., da Rocha Fernandes, J. D., Ohlrogge, A. W., Malanda, B.;, 2018). The burden of diabetes has increased considerably across Africa, m",
+    "source": "vincent proposal.pdf",
+    "page": 8
+  },
+  {
+    "id": 60,
+    "text": "ga, S., Huang, Y., da Rocha Fernandes, J. D., Ohlrogge, A. W., Malanda, B.;, 2018). The burden of diabetes has increased considerably across Africa, making it one of the fastest-growing regions affected by the disease. Rapid urbanization, population growth, unhealthy dietary patterns, physical inactivity, and increasing rates of overweight and obesity have contributed significantly to the rising prevalence of Type 2 diabetes across the continent. Despite this growing burden, a substantial proportion of diabetes cases remain",
+    "source": "vincent proposal.pdf",
+    "page": 8
+  },
+  {
+    "id": 61,
+    "text": "2 undiagnosed due to limited access to routine screening services, inadequate healthcare infrastructure, and shortages of healthcare professionals, particularly in low- and middle income countries. Consequently, many individuals are diagnosed only after developing severe complications, resulting in increased healthcare costs and poor clinical outcomes. The (Whiting, David R., Guariguata, Leonor, Weil, Clara, Shaw, Jonathan, 2025) reports that Africa is expected to experience the highest percentage increase in diabetes prevalence among all global regions over the coming decades if preventive measures are not strengthened. Similarly, the (Onwujekwe O, Okeibunor J,Usman A, Olu O, 2025) emphasizes that strengthening early detection, continuous risk assessment, and preventive healthcare interve",
+    "source": "vincent proposal.pdf",
+    "page": 9
+  },
+  {
+    "id": 62,
+    "text": "ekwe O, Okeibunor J,Usman A, Olu O, 2025) emphasizes that strengthening early detection, continuous risk assessment, and preventive healthcare interventions is essential to reducing the growing burden of diabetes and its associated complications across the continent (Whiting, David R., Guariguata, Leonor, Weil, Clara, Shaw, Jonathan, 2025). In Kenya, diabetes has become a significant public health concern, contributing substantially to the country's growing burden of non-communicable diseases. The increasing prevalence of Type 2 diabetes has been linked to rapid urbanization, changing dietary habits, sedentary lifestyles, and rising obesity rates among adults. Despite ongoing efforts by the Ministry of Health to strengthen the prevention and management of non-communicable diseases, a consi",
+    "source": "vincent proposal.pdf",
+    "page": 9
+  },
+  {
+    "id": 63,
+    "text": "ates among adults. Despite ongoing efforts by the Ministry of Health to strengthen the prevention and management of non-communicable diseases, a considerable number of individuals remain undiagnosed or are diagnosed at advanced stages of the disease when complications have already developed. Limited public awareness, inadequate routine screening, and disparities in access to quality healthcare services, particularly in rural and underserved communities, continue to hinder early detection and timely intervention. The (KENYA NATIONAL CLINICAL GUIDELINES FOR THE MANAGEMENT OF DIABETES MELLITUS KENYA NATIONAL CLINICAL",
+    "source": "vincent proposal.pdf",
+    "page": 9
+  },
+  {
+    "id": 64,
+    "text": "3 GUIDELINES FOR THE MANAGEMENT OF DIABETES MELLITUS Republic of Kenya) and (Mohamed, Shukri F, Mwangi, Martin, Mutua Martin K, Kibachio Joseph, Hussein Abubakar, Ndegwa Zachary, Owondo Scholastica, Asiki Gershim, Kyobutungi Catherine) emphasize the need to enhance early screening, public awareness, and the adoption of innovative digital health technologies importance of developing intelligent decision-support systems capable of facilitating early diabetes risk assessment and promoting preventive healthcare practices among the Kenyan population (IDF Diabetes Atlas: Global estimates of the prevalence of diabetes for 2011 and 2030, 2023) Recent advancements in artificial intelligence (AI) and machine learning (ML) have transformed healthcare by enabling the development of predictive models t",
+    "source": "vincent proposal.pdf",
+    "page": 10
+  },
+  {
+    "id": 65,
+    "text": " advancements in artificial intelligence (AI) and machine learning (ML) have transformed healthcare by enabling the development of predictive models that support disease diagnosis, prognosis, and clinical decision-making. In diabetes research, machine learning algorithms have been widely applied to analyze patient health records and identify individuals at risk of developing Type 2 diabetes using risk factors such as age, body mass index (BMI), blood glucose level, blood pressure, family history, and lifestyle characteristics. Among the commonly used algorithms are Logistic Regression, Decision Trees, Support Vector Machines, Random Forest, and Extreme Gradient Boosting (XGBoost), with many studies reporting improved predictive performance compared to conventional statistical approaches. T",
+    "source": "vincent proposal.pdf",
+    "page": 10
+  },
+  {
+    "id": 66,
+    "text": "nd Extreme Gradient Boosting (XGBoost), with many studies reporting improved predictive performance compared to conventional statistical approaches. These techniques enable healthcare providers to identify high-risk individuals earlier, allowing timely interventions that may delay or prevent disease progression. Furthermore, the increasing availability of electronic health records and publicly accessible medical datasets has accelerated research in machine learning-based diabetes risk prediction, making intelligent decision-support systems increasingly feasible in",
+    "source": "vincent proposal.pdf",
+    "page": 10
+  },
+  {
+    "id": 67,
+    "text": "4 both clinical and community healthcare settings (Fregoso-Aparicio Luis, Noguez Julieta, Montesinos Luis,García-García José A., 2021). Despite the significant progress achieved in machine learning-based diabetes prediction, several limitations remain evident in existing studies. Most research has primarily focused on improving predictive accuracy by comparing multiple machine learning algorithms, while comparatively little attention has been given to enhancing the interpretability of prediction outcomes and providing users with actionable recommendations that support disease prevention. Consequently, many existing systems function as prediction tools rather than comprehensive decision-support systems, leaving users without adequate explanation of the factors influencing their predicted ri",
+    "source": "vincent proposal.pdf",
+    "page": 11
+  },
+  {
+    "id": 68,
+    "text": "ion tools rather than comprehensive decision-support systems, leaving users without adequate explanation of the factors influencing their predicted risk or practical guidance for reducing that risk. In addition, relatively few studies have contextualized diabetes risk prediction within resource constrained healthcare environments where accessible digital solutions can complement routine screening services. Therefore, this study proposes the development of a Diabetes Risk Prediction and Recommendation System that applies machine learning to assess an individual's risk of developing diabetes and subsequently generates personalized lifestyle recommendations based on identified risk factors. By integrating predictive analytics with preventive decision support, the proposed system seeks to prom",
+    "source": "vincent proposal.pdf",
+    "page": 11
+  },
+  {
+    "id": 69,
+    "text": "ommendations based on identified risk factors. By integrating predictive analytics with preventive decision support, the proposed system seeks to promote early intervention, increase public awareness, and encourage healthier lifestyle choices that may reduce the future burden of diabetes (Lucia A, Alejandro c, 2023). 1.2 Motivation for study The increasing prevalence of diabetes mellitus and the growing number of undiagnosed cases continue to present a significant public health challenge worldwide. According to the",
+    "source": "vincent proposal.pdf",
+    "page": 11
+  },
+  {
+    "id": 70,
+    "text": "5 (IDF Diabetes Atlas: Global estimates of the prevalence of diabetes for 2011 and 2030, 2023), approximately 589 million adults aged between 20 and 79 years are living with diabetes globally, with projections indicating that this number could exceed 850 million by 2050 if effective preventive measures are not implemented. Furthermore, a considerable proportion of individuals remain unaware of their diabetic status, limiting opportunities for early intervention and increasing the likelihood of developing severe complications. In Kenya, the burden of diabetes has continued to increase alongside rising rates of obesity, physical inactivity, and unhealthy dietary practices. Although routine screening remains one of the most effective approaches for early detection, access to screening service",
+    "source": "vincent proposal.pdf",
+    "page": 12
+  },
+  {
+    "id": 71,
+    "text": " unhealthy dietary practices. Although routine screening remains one of the most effective approaches for early detection, access to screening services is still limited for many individuals, particularly in underserved communities. Recent advancements in artificial intelligence and machine learning provide an opportunity to complement conventional healthcare by enabling the development of intelligent systems capable of identifying individuals at risk using readily available health information. Therefore, there is a growing need for accessible decision-support systems that not only predict diabetes risk but also provide personalized lifestyle recommendations to encourage preventive healthcare practices. This study is motivated by the need to contribute towards early diabetes risk assessment",
+    "source": "vincent proposal.pdf",
+    "page": 12
+  },
+  {
+    "id": 72,
+    "text": "recommendations to encourage preventive healthcare practices. This study is motivated by the need to contribute towards early diabetes risk assessment through the application of machine learning techniques, thereby supporting timely intervention and promoting healthier lifestyles (KENYA NATIONAL CLINICAL GUIDELINES FOR THE MANAGEMENT OF DIABETES MELLITUS KENYA NATIONAL CLINICAL GUIDELINES FOR THE MANAGEMENT OF DIABETES MELLITUS Republic of Kenya) . 1.3 The statement of the Problem",
+    "source": "vincent proposal.pdf",
+    "page": 12
+  },
+  {
+    "id": 73,
+    "text": "6 Ideally, individuals at risk of developing Type 2 diabetes should be identified early through accessible risk assessment and screening mechanisms, allowing appropriate preventive measures to be initiated before the onset of the disease and its associated complications. Early identification is particularly important because several major risk factors for Type 2 diabetes, including overweight and obesity, physical inactivity, unhealthy dietary patterns, age, and family history, can be assessed before clinical complications develop. Effective risk assessment should therefore provide not only an indication of an individual's likelihood of developing diabetes but also meaningful information that supports preventive lifestyle decisions (Duncan, Bruce B, Magliano, Dianna J, Boyko, Edward J, 202",
+    "source": "vincent proposal.pdf",
+    "page": 13
+  },
+  {
+    "id": 74,
+    "text": "oping diabetes but also meaningful information that supports preventive lifestyle decisions (Duncan, Bruce B, Magliano, Dianna J, Boyko, Edward J, 2026). However, diabetes continues to present a growing public health challenge, with a substantial number of cases remaining undiagnosed, particularly in low- and middle-income settings. Existing diabetes prediction systems have increasingly applied machine learning to estimate diabetes risk, but many focus primarily on classification accuracy and provide limited interpretation of the factors contributing to an individual's predicted risk. In addition, prediction outputs are often presented without personalized recommendations that could assist individuals in addressing modifiable risk factors. This creates a gap between obtaining a risk predic",
+    "source": "vincent proposal.pdf",
+    "page": 13
+  },
+  {
+    "id": 75,
+    "text": "t personalized recommendations that could assist individuals in addressing modifiable risk factors. This creates a gap between obtaining a risk prediction and translating that prediction into preventive action (Cho, N. H. Shaw, J. E., Karuranga, S., Huang, Y., da Rocha Fernandes, J. D., Ohlrogge, A. W., Malanda, B.;, 2018) . The absence of accessible systems that combine diabetes risk assessment with interpretable results and personalized lifestyle recommendations may limit opportunities for early preventive intervention. The proposed Diabetes Risk Prediction and Recommendation System will address this problem by applying selected machine learning models to assess",
+    "source": "vincent proposal.pdf",
+    "page": 13
+  },
+  {
+    "id": 76,
+    "text": "7 diabetes risk and generating recommendations based on identified risk factors, thereby supporting early risk awareness and informed preventive lifestyle choices (Masood Saleha, Mousa, ·,Al-Bashrawi Ahmad Muhammad, Khan Attique, Dwivedi, Yogesh K). 1.4 Research objectives 1.4.1 General objectives To develop and implement a machine learning-based system for predicting diabetes risk and providing personalized lifestyle recommendations. 1.4.2 Specific objectives The specific objectives of this research are to: i. Identify the key health and demographic factors associated with diabetes risk from the selected dataset. ii. Develop diabetes risk prediction models using Logistic Regression and Random Forest algorithms. iii. Evaluate and compare the performance of the developed models using approp",
+    "source": "vincent proposal.pdf",
+    "page": 14
+  },
+  {
+    "id": 77,
+    "text": "ediction models using Logistic Regression and Random Forest algorithms. iii. Evaluate and compare the performance of the developed models using appropriate classification metrics and select the model with the most suitable predictive performance. iv. Develop a recommendation component that generates lifestyle recommendations based on the identified risk factors. v. Analyze the prediction results, model performance, and recommendation outcomes to generate a comprehensive report on the effectiveness of the proposed system. 1.5 Significance of the study",
+    "source": "vincent proposal.pdf",
+    "page": 14
+  },
+  {
+    "id": 78,
+    "text": "8 The proposed Diabetes Risk Prediction and Recommendation System will contribute to the growing application of machine learning in preventive healthcare by demonstrating how routinely available health and demographic information can be used to support early diabetes risk assessment. The system may contribute to increased awareness of diabetes risk factors by providing users with an understandable assessment of their risk and lifestyle recommendations related to identified modifiable factors. Individuals: The system will provide individuals with an accessible means of assessing their diabetes risk and understanding the factors contributing to the assessment. The personalized recommendations may support informed lifestyle decisions, particularly in areas such as physical activity, weight ma",
+    "source": "vincent proposal.pdf",
+    "page": 15
+  },
+  {
+    "id": 79,
+    "text": " the assessment. The personalized recommendations may support informed lifestyle decisions, particularly in areas such as physical activity, weight management, and dietary practices. The system is intended to complement rather than replace professional medical assessment and screening. Healthcare Practice: The proposed system may serve as a digital decision-support tool that complements existing screening and health education practices. By presenting risk factors and corresponding recommendations, the system can provide an additional source of information that may support discussions between individuals and healthcare professionals and encourage earlier engagement with appropriate healthcare services. Research and Academia: The study will contribute to existing research on machine learning",
+    "source": "vincent proposal.pdf",
+    "page": 15
+  },
+  {
+    "id": 80,
+    "text": "age earlier engagement with appropriate healthcare services. Research and Academia: The study will contribute to existing research on machine learning applications in diabetes risk assessment by evaluating Logistic Regression and Random Forest models on a diabetes dataset and examining their predictive performance. It will also demonstrate the integration of prediction with interpretable risk factors and recommendation logic, providing a basis for future research on explainable and preventive digital health systems.",
+    "source": "vincent proposal.pdf",
+    "page": 15
+  },
+  {
+    "id": 81,
+    "text": "9 Policy and Digital Health: The findings may provide useful insights for researchers, health institutions, and policymakers interested in the adoption of data-driven technologies for non communicable disease prevention. The study may inform future development of accessible digital health interventions that complement national strategies for early detection, health education, and prevention of diabetes and other non-communicable diseases. The Researcher: The study will provide practical experience in data preprocessing, exploratory data analysis, machine learning model development, model evaluation, explainable prediction, system development, and interpretation of healthcare data. These skills will strengthen the researcher's ability to apply data science techniques to real-world healthcar",
+    "source": "vincent proposal.pdf",
+    "page": 16
+  },
+  {
+    "id": 82,
+    "text": " and interpretation of healthcare data. These skills will strengthen the researcher's ability to apply data science techniques to real-world healthcare problems. 1.6 Scope of the study This study will focus on the development of a machine learning-based system for predicting the risk of Type 2 diabetes among adults using selected demographic and health-related factors. The study will cover data preprocessing, identification of relevant risk factors, development of Logistic Regression and Random Forest models, evaluation of their predictive performance, and selection of a suitable model. The system will also provide personalized lifestyle recommendations based on the identified risk factors. The study will focus on diabetes risk prediction and preventive lifestyle guidance and will not cove",
+    "source": "vincent proposal.pdf",
+    "page": 16
+  },
+  {
+    "id": 83,
+    "text": "mmendations based on the identified risk factors. The study will focus on diabetes risk prediction and preventive lifestyle guidance and will not cover clinical diagnosis, medication prescription, or treatment of diabetes. 1.7 Assumptions in the study In conducting this study, the following assumptions will be made:",
+    "source": "vincent proposal.pdf",
+    "page": 16
+  },
+  {
+    "id": 84,
+    "text": "10 1. The selected dataset will contain sufficiently accurate and relevant demographic and health-related information required for developing the diabetes risk prediction models. 2. The recorded values for the selected health and demographic factors will reasonably represent the characteristics of the individuals included in the dataset. 3. The selected dataset will contain adequate observations and variables to support the development and evaluation of the Logistic Regression and Random Forest models. 4. The identified diabetes risk factors will provide sufficient information for generating relevant lifestyle recommendations based on the predefined recommendation rules. 5. The evaluation metrics used in the study will provide an appropriate basis for assessing and comparing the performanc",
+    "source": "vincent proposal.pdf",
+    "page": 17
+  },
+  {
+    "id": 85,
+    "text": "defined recommendation rules. 5. The evaluation metrics used in the study will provide an appropriate basis for assessing and comparing the performance of the developed prediction models. 1.8 Limitations of study The study will have the following limitations: 1. The performance of the developed models will depend on the quality, completeness, and characteristics of the selected dataset. Missing, inconsistent, or imbalanced data may affect prediction performance. 2. The findings may have limited generalizability because the dataset may not fully represent the demographic and health characteristics of all populations or regions. 3. The system will focus on selected risk factors available in the dataset and may therefore not account for all factors that can influence the development of Type 2",
+    "source": "vincent proposal.pdf",
+    "page": 17
+  },
+  {
+    "id": 86,
+    "text": "ill focus on selected risk factors available in the dataset and may therefore not account for all factors that can influence the development of Type 2 diabetes.",
+    "source": "vincent proposal.pdf",
+    "page": 17
+  },
+  {
+    "id": 87,
+    "text": "11 4. The recommendation component will provide lifestyle guidance based on predefined rules and identified risk factors. It will not provide clinical diagnosis, medication prescriptions, or individualized medical treatment. 5. The study will evaluate Logistic Regression and Random Forest models only; therefore, the findings will not represent the performance of all possible machine learning algorithms for diabetes risk prediction.",
+    "source": "vincent proposal.pdf",
+    "page": 18
+  },
+  {
+    "id": 88,
+    "text": "12 4 CHAPTER TWO LITERATURE REVIEW 2.1 Introduction Diabetes is a chronic health condition that affects how the body regulates blood glucose levels. It is a major public health concern because uncontrolled diabetes can lead to serious complications, including cardiovascular diseases, kidney damage, nerve damage and vision impairment. Early identification of individuals at risk is important because it creates opportunities for timely health assessment and preventive lifestyle interventions. Traditional approaches to identifying diabetes involve clinical assessments and laboratory tests. Although these methods remain important in healthcare, machine learning has created additional opportunities to analyse health information and identify patterns associated with diabetes (Kavakiotis et al., 2",
+    "source": "vincent proposal.pdf",
+    "page": 19
+  },
+  {
+    "id": 89,
+    "text": "chine learning has created additional opportunities to analyse health information and identify patterns associated with diabetes (Kavakiotis et al., 2017). Machine learning techniques can examine relationships between medical measurements and recorded health outcomes to generate predictions. Previous studies have investigated different algorithms for diabetes prediction, demonstrating the potential of computational approaches in analysing diabetes-related data (Fregoso-Aparicio et al., 2021; Kavakiotis et al., 2017). However, developing a prediction model is not the only consideration when designing a health-related system. Understanding the factors contributing to predictions and providing useful lifestyle guidance are also important. This chapter reviews literature related to diabetes pr",
+    "source": "vincent proposal.pdf",
+    "page": 19
+  },
+  {
+    "id": 90,
+    "text": "factors contributing to predictions and providing useful lifestyle guidance are also important. This chapter reviews literature related to diabetes prediction, the dataset selected for the study, machine learning approaches, data preparation, model evaluation, explainability and recommendation systems. 2.2 Literature Review",
+    "source": "vincent proposal.pdf",
+    "page": 19
+  },
+  {
+    "id": 91,
+    "text": "13 The Pima Indians Diabetes Database is commonly used in machine learning research involving diabetes classification. The dataset originates from research associated with the National Institute of Diabetes and Digestive and Kidney Diseases and the work on using the ADAP learning algorithm to forecast the onset of diabetes mellitus (Smith et al., n.d.). It contains 768 observations from female individuals aged 21 years and above of Pima Indian heritage. The dataset includes eight predictor variables: pregnancies, glucose concentration, blood pressure, skin thickness, insulin level, body mass index, diabetes pedigree function and age. The target variable, commonly referred to as Outcome, indicates whether an observation has a positive or negative diabetes test result. The dataset contains 5",
+    "source": "vincent proposal.pdf",
+    "page": 20
+  },
+  {
+    "id": 92,
+    "text": "et variable, commonly referred to as Outcome, indicates whether an observation has a positive or negative diabetes test result. The dataset contains 500 negative observations and 268 positive observations, meaning that the two outcome classes are not equally represented (Bay et al., n.d.). The dataset is suitable for this study because it contains structured numerical measurements and a binary target variable, making it appropriate for supervised classification. Its variables provide information that can be used to train models to identify patterns associated with diabetes outcomes. Previous research has also used the dataset in investigating and comparing machine learning approaches for diabetes prediction (Kavakiotis et al., 2017). However, the dataset has limitations that must be consid",
+    "source": "vincent proposal.pdf",
+    "page": 20
+  },
+  {
+    "id": 93,
+    "text": " and comparing machine learning approaches for diabetes prediction (Kavakiotis et al., 2017). However, the dataset has limitations that must be considered when interpreting the results. It represents only adult women from a specific ethnic population and therefore does not represent men, younger individuals or all geographical and ethnic groups. Some zero values in variables such as glucose, blood pressure, skin thickness, insulin and body mass index may also represent unavailable measurements rather than actual clinical values. These values require investigation before they are used during model training. Since the proposed study is being conducted within a Kenyan academic context, the use of this dataset does not",
+    "source": "vincent proposal.pdf",
+    "page": 20
+  },
+  {
+    "id": 94,
+    "text": "nducted within a Kenyan academic context, the use of this dataset does not",
+    "source": "vincent proposal.pdf",
+    "page": 20
+  },
+  {
+    "id": 95,
+    "text": "14 establish that the resulting models are representative of the Kenyan population. Their findings will therefore be interpreted within the characteristics and limitations of the selected dataset. Machine learning is a branch of artificial intelligence that enables computer systems to identify patterns from data and use the learned patterns to make predictions. In supervised learning, models are trained using observations containing input variables and known outcome labels. The models learn relationships between the input variables and the target outcome before their performance is assessed using data that were not used during training. Machine learning and data mining methods have been investigated in diabetes research for classification, prediction and the analysis of diabetes-related in",
+    "source": "vincent proposal.pdf",
+    "page": 21
+  },
+  {
+    "id": 96,
+    "text": "ne learning and data mining methods have been investigated in diabetes research for classification, prediction and the analysis of diabetes-related information (Kavakiotis et al., 2017). Similarly, Fregoso-Aparicio et al. (2021) reviewed machine learning and deep learning predictive models for Type 2 diabetes, demonstrating the range of computational approaches investigated in this area. The proposed study focuses on Logistic Regression and Random Forest because they provide an opportunity to compare two different supervised classification approaches. Logistic Regression estimates the probability that an observation belongs to a particular class based on its input variables. In diabetes prediction, variables such as glucose concentration, body mass index, age and blood pressure can be used",
+    "source": "vincent proposal.pdf",
+    "page": 21
+  },
+  {
+    "id": 97,
+    "text": "ass based on its input variables. In diabetes prediction, variables such as glucose concentration, body mass index, age and blood pressure can be used to estimate the probability of a positive outcome. One of its main advantages is its relatively simple structure, which allows its coefficients to be examined to understand how the input variables are associated with the predicted outcome. It can also provide probability estimates rather than only assigning a class label. However, standard Logistic Regression models the relationship between input variables and the log-odds of the outcome as linear.",
+    "source": "vincent proposal.pdf",
+    "page": 21
+  },
+  {
+    "id": 98,
+    "text": "15 Consequently, complex nonlinear relationships may not be adequately represented without additional transformations or interaction terms. Its performance may also be affected by data quality and relationships between predictor variables. Random Forest, on the other hand, is an ensemble learning algorithm that combines multiple decision trees to produce a classification result. Each tree is trained using a sample of the training data and a random selection of input features, with the individual predictions combined to produce the final result. Unlike standard Logistic Regression, Random Forest can identify nonlinear relationships and interactions between variables without requiring these relationships to be specified manually. This makes it useful for analysing datasets containing differe",
+    "source": "vincent proposal.pdf",
+    "page": 22
+  },
+  {
+    "id": 99,
+    "text": "tions between variables without requiring these relationships to be specified manually. This makes it useful for analysing datasets containing different clinical measurements. However, because its predictions are generated through multiple decision trees, its behaviour may be more difficult to interpret directly than that of Logistic Regression. Its performance can also depend on the quality of the training data and the selected model parameters. Comparing these two algorithms will therefore help establish which provides more suitable predictive performance on the selected dataset (Kavakiotis et al., 2017). The quality of a machine learning model depends not only on the selected algorithm but also on the quality of the data used during training. Data preprocessing involves examining and pr",
+    "source": "vincent proposal.pdf",
+    "page": 22
+  },
+  {
+    "id": 100,
+    "text": "odel depends not only on the selected algorithm but also on the quality of the data used during training. Data preprocessing involves examining and preparing raw data to address problems that may affect model performance. (Isnan et al 2024) reviewed preprocessing techniques used in diabetes prediction studies and highlighted the importance of preparing datasets before applying classification algorithms. In the Pima dataset, particular attention is required when investigating missing and invalid values. Some zero values may indicate unavailable measurements, especially in variables where zero is not a realistic clinical measurement. Missing information can be handled through",
+    "source": "vincent proposal.pdf",
+    "page": 22
+  },
+  {
+    "id": 101,
+    "text": "16 appropriate methods such as removing affected observations or applying statistical imputation, depending on the nature and extent of the missing data. Unusual values also require examination because they may represent either measurement errors or genuine differences between individuals. Techniques such as descriptive statistics, box plots and interquartile range analysis can assist in identifying observations that require further investigation. Removing observations without considering their meaning may result in the loss of useful information. Feature scaling is another preprocessing consideration, particularly when using algorithms that are affected by differences in numerical feature magnitudes. Standardization transforms numerical variables using their mean and standard deviation, w",
+    "source": "vincent proposal.pdf",
+    "page": 23
+  },
+  {
+    "id": 102,
+    "text": "are affected by differences in numerical feature magnitudes. Standardization transforms numerical variables using their mean and standard deviation, while normalization rescales values to a specified range. Logistic Regression may benefit from feature standardization, particularly when regularization is applied, whereas Random Forest generally does not require scaling because it uses decision-tree splits. The dataset also contains unequal class distributions, with more negative than positive outcomes. This makes it important to examine model performance using more than accuracy alone. Data splitting is equally important because the models should be trained using one portion of the dataset and evaluated using separate observations. Maintaining similar class proportions in the training and t",
+    "source": "vincent proposal.pdf",
+    "page": 23
+  },
+  {
+    "id": 103,
+    "text": "uld be trained using one portion of the dataset and evaluated using separate observations. Maintaining similar class proportions in the training and testing subsets can support a fairer comparison of model performance. Preprocessing operations should also be fitted using training data before being applied to testing data to reduce the risk of data leakage. Evaluating the performance of diabetes prediction models requires the use of appropriate classification metrics. Accuracy measures the proportion of all predictions that are correct, while precision measures the proportion of predicted positive cases that are actually positive.",
+    "source": "vincent proposal.pdf",
+    "page": 23
+  },
+  {
+    "id": 104,
+    "text": "17 Recall measures the proportion of actual positive cases correctly identified by the model, and the F1-score combines precision and recall into a single measure. Specificity measures the proportion of actual negative cases correctly classified. A confusion matrix provides further information by showing true positives, true negatives, false positives and false negatives. In addition, the Receiver Operating Characteristic Area Under the Curve (ROC AUC) measures the ability of a model to distinguish between positive and negative classes across different classification thresholds. In diabetes prediction, recall is important because it indicates how many positive observations are identified, while precision helps assess the reliability of positive predictions. Consequently, relying on accurac",
+    "source": "vincent proposal.pdf",
+    "page": 24
+  },
+  {
+    "id": 105,
+    "text": " how many positive observations are identified, while precision helps assess the reliability of positive predictions. Consequently, relying on accuracy alone may not provide a complete assessment. The proposed study will compare Logistic Regression and Random Forest using accuracy, precision, recall, F1-score, confusion matrices and ROC-AUC where appropriate. Although predictive performance is important, understanding how a model arrives at its predictions is also valuable in healthcare-related applications. Explainable Artificial Intelligence refers to methods that help make the behaviour and predictions of machine learning models more understandable. Lundberg and Lee (2017) introduced SHAP, a method that uses Shapley values to estimate the contribution of individual input features to a m",
+    "source": "vincent proposal.pdf",
+    "page": 24
+  },
+  {
+    "id": 106,
+    "text": "standable. Lundberg and Lee (2017) introduced SHAP, a method that uses Shapley values to estimate the contribution of individual input features to a model prediction. SHAP can be used to examine feature contributions for individual observations and to provide an overall view of feature importance across a dataset. In diabetes prediction, this can help examine how variables such as glucose, body mass index, age and other available measurements contribute to the predictions generated by a model. However, feature contributions should not be interpreted as proof that a particular variable causes diabetes. They explain the behaviour of the trained model based on the data used",
+    "source": "vincent proposal.pdf",
+    "page": 24
+  },
+  {
+    "id": 107,
+    "text": "18 during development. Incorporating model interpretation into the proposed system will therefore provide additional information about predictions rather than presenting only a positive or negative classification result. In addition to prediction and interpretation, recommendation systems have been investigated as tools for supporting health-related behaviour change. A recommendation system provides suggestions based on information about an individual, their characteristics or their needs. In diabetes-related applications, recommendations may involve healthy eating, physical activity and weight management. Pinto et al. (2023) conducted a systematic review of recommendation systems designed to promote behaviour change among individuals with Type 2 diabetes. Their review identified studies i",
+    "source": "vincent proposal.pdf",
+    "page": 25
+  },
+  {
+    "id": 108,
+    "text": "ematic review of recommendation systems designed to promote behaviour change among individuals with Type 2 diabetes. Their review identified studies investigating technology-supported recommendations and their potential role in supporting lifestyle-related behaviour change. Recommendation systems can use different approaches, including rule-based, content-based, collaborative and hybrid methods. A rule-based system uses predefined conditions to determine which recommendations should be presented based on available information. This approach is suitable where recommendations can be linked to clearly defined conditions and where transparency is important. However, its effectiveness depends on the quality and relevance of the predefined rules because it does not automatically learn new recomm",
+    "source": "vincent proposal.pdf",
+    "page": 25
+  },
+  {
+    "id": 109,
+    "text": " important. However, its effectiveness depends on the quality and relevance of the predefined rules because it does not automatically learn new recommendations from user behaviour. The proposed study will use a rule-based recommendation component to provide general lifestyle guidance based on selected risk factors and prediction results. For example, recommendations may address physical activity, healthy eating and weight management where relevant. The component will operate alongside the selected prediction model and its interpretation results to provide users with additional information beyond the predicted",
+    "source": "vincent proposal.pdf",
+    "page": 25
+  },
+  {
+    "id": 110,
+    "text": "19 outcome. It will not prescribe medication, provide treatment or replace professional medical advice. Integrating prediction, interpretation and recommendations will allow the proposed system to demonstrate how machine learning outputs can be connected to general preventive health guidance. 2.3 Research Gaps The reviewed literature demonstrates that machine learning techniques have been widely investigated in diabetes research. (Kavakiotis et al. 2017) examined machine learning and data mining methods applied to diabetes-related problems, while (Fregoso-Aparicio et al. 2021) reviewed predictive models developed using machine learning and deep learning approaches. (Isnan et al. 2024) discussed preprocessing techniques used in diabetes prediction, and (Lundberg and Lee 2017) presented a me",
+    "source": "vincent proposal.pdf",
+    "page": 26
+  },
+  {
+    "id": 111,
+    "text": "ep learning approaches. (Isnan et al. 2024) discussed preprocessing techniques used in diabetes prediction, and (Lundberg and Lee 2017) presented a method for explaining individual machine learning predictions. In addition, (Pinto et al. 2023) examined recommendation systems intended to support behaviour change among individuals with Type 2 diabetes. These studies provide a foundation for developing systems that combine predictive modelling with additional forms of decision support. Despite these contributions, several gaps remain relevant to the proposed study. First, a prediction result alone may not provide users with sufficient information about the factors contributing to the classification or the possible preventive actions they can consider. The proposed system addresses this gap by",
+    "source": "vincent proposal.pdf",
+    "page": 26
+  },
+  {
+    "id": 112,
+    "text": "n about the factors contributing to the classification or the possible preventive actions they can consider. The proposed system addresses this gap by combining diabetes prediction with interpretation of relevant input factors and rule-based lifestyle recommendations. Second, some machine learning models may be difficult to interpret directly. The use of SHAP provides an approach for examining feature contributions and improving the transparency of model",
+    "source": "vincent proposal.pdf",
+    "page": 26
+  },
+  {
+    "id": 113,
+    "text": "20 predictions. Third, the Pima Indians Diabetes Database represents a specific population of adult women of Pima Indian heritage, meaning that models trained on it cannot automatically be assumed to perform similarly among other populations, including Kenyans. The study will acknowledge this limitation and restrict its conclusions to the selected dataset. Finally, rather than implementing numerous algorithms, the study will focus on comparing Logistic Regression and Random Forest to provide a manageable evaluation of a statistical classification approach and an ensemble learning approach. The proposed study will therefore develop an integrated Diabetes Risk Prediction and Recommendation System that combines two supervised machine learning models, interpretation of prediction factors and r",
+    "source": "vincent proposal.pdf",
+    "page": 27
+  },
+  {
+    "id": 114,
+    "text": "ed Diabetes Risk Prediction and Recommendation System that combines two supervised machine learning models, interpretation of prediction factors and rule-based lifestyle guidance. The system will be evaluated using the Pima Indians Diabetes Database. Its contribution will be the integration of these components into a single prototype, rather than a claim of clinical validation or proven effectiveness in predicting diabetes among the Kenyan population. 2.4 Chapter Summary This chapter reviewed literature related to machine learning-based diabetes prediction, focusing on the Pima Indians Diabetes Database, Logistic Regression, Random Forest, data preprocessing, model evaluation, explainable artificial intelligence and recommendation systems. The review established the relevance of preparing ",
+    "source": "vincent proposal.pdf",
+    "page": 27
+  },
+  {
+    "id": 115,
+    "text": "ta preprocessing, model evaluation, explainable artificial intelligence and recommendation systems. The review established the relevance of preparing data appropriately, comparing predictive models using suitable evaluation metrics and interpreting model outputs. It also identified the limitations of the selected dataset and the importance of connecting prediction results to understandable lifestyle guidance. These findings provide the foundation for the",
+    "source": "vincent proposal.pdf",
+    "page": 27
+  },
+  {
+    "id": 116,
+    "text": "21 proposed system. The next chapter presents the research methodology that will guide dataset preparation, model development, evaluation and system implementation.",
+    "source": "vincent proposal.pdf",
+    "page": 28
+  },
+  {
+    "id": 117,
+    "text": "22 5 CHAPTER THREE RESEARCH METHODOLOGY 3.1 Introduction This chapter presents the methodology that will be followed in developing the proposed diabetes risk prediction and recommendation system. It describes the research design, data source, data preprocessing procedures, exploratory data analysis, machine learning model development, evaluation methods, model interpretation, recommendation development, and system implementation. It also discusses the ethical considerations and limitations associated with the study. 3.1.1 Overview of the Research Methodology The study will adopt a quantitative and experimental approach to develop a machine learning-based system for predicting diabetes outcomes and providing lifestyle recommendations. The methodology will involve obtaining a publicly availa",
+    "source": "vincent proposal.pdf",
+    "page": 29
+  },
+  {
+    "id": 118,
+    "text": "arning-based system for predicting diabetes outcomes and providing lifestyle recommendations. The methodology will involve obtaining a publicly available diabetes dataset, examining and preparing the data, developing prediction models, evaluating their performance, and integrating the selected model into a web-based application. Two machine learning algorithms, Logistic Regression and Random Forest, will be developed and compared. SHAP (SHapley Additive exPlanations) will be used to interpret the contribution of input features to model predictions. In addition, an AI recommendation component will be developed to provide general lifestyle guidance based on selected health related factors.",
+    "source": "vincent proposal.pdf",
+    "page": 29
+  },
+  {
+    "id": 119,
+    "text": "23 3.1.2 Justification of the Chosen Methodology A quantitative and experimental methodology is appropriate because the study involves analysing numerical health-related data and evaluating the performance of machine learning classification algorithms. The approach will make it possible to measure model performance using established evaluation metrics and compare the results obtained from the two algorithms. The use of a secondary dataset will also make the study manageable within the available time and resources. Logistic Regression and Random Forest have been selected to provide a comparison between a relatively simple statistical classification approach and an ensemble learning approach. SHAP will support the interpretation of predictions, while rule-based recommendations will provide u",
+    "source": "vincent proposal.pdf",
+    "page": 30
+  },
+  {
+    "id": 120,
+    "text": "ation approach and an ensemble learning approach. SHAP will support the interpretation of predictions, while rule-based recommendations will provide understandable lifestyle guidance without requiring the development of an additional machine learning model. 3.2 Research Design The research design describes the procedures that will be followed to investigate the problem and achieve the objectives of the study. The study will use an experimental design involving data preparation, model development, performance evaluation, interpretation, and system implementation. 3.2.1 Type of Study The study will be an applied quantitative research study. It is applied because it seeks to develop a practical system that can predict diabetes outcomes and provide lifestyle",
+    "source": "vincent proposal.pdf",
+    "page": 30
+  },
+  {
+    "id": 121,
+    "text": "is applied because it seeks to develop a practical system that can predict diabetes outcomes and provide lifestyle",
+    "source": "vincent proposal.pdf",
+    "page": 30
+  },
+  {
+    "id": 122,
+    "text": "24 recommendations. It is quantitative because it uses numerical health-related attributes and statistical evaluation measures to assess the performance of the developed models. The experimental aspect will involve training and testing Logistic Regression and Random Forest models using the selected dataset under a consistent evaluation procedure. 3.2.2 Research Approach The study will use a secondary data approach because the dataset will be obtained from an existing publicly available source rather than collected directly from patients. The data will be analysed using Python-based data science and machine learning libraries. The development process will follow a sequence of activities: data acquisition, data inspection, preprocessing, exploratory data analysis, model development, model ev",
+    "source": "vincent proposal.pdf",
+    "page": 31
+  },
+  {
+    "id": 123,
+    "text": "process will follow a sequence of activities: data acquisition, data inspection, preprocessing, exploratory data analysis, model development, model evaluation, model interpretation, recommendation development, and system implementation. 3.2.3 Research Framework The research framework will describe how the input data will be transformed into prediction results and lifestyle recommendations. The dataset will first undergo inspection and preprocessing to improve its suitability for machine learning. The prepared data will then be used to train and evaluate the selected classification models. The best-performing model, based on the evaluation results, will be selected for integration into the application. SHAP will be used to explain the contribution of relevant input features to predictions. ",
+    "source": "vincent proposal.pdf",
+    "page": 31
+  },
+  {
+    "id": 124,
+    "text": "ults, will be selected for integration into the application. SHAP will be used to explain the contribution of relevant input features to predictions. The recommendation component will use predefined rules to map selected input factors to general lifestyle guidance.",
+    "source": "vincent proposal.pdf",
+    "page": 31
+  },
+  {
+    "id": 125,
+    "text": "25 The overall process will follow this sequence: Data acquisition → Data inspection and preprocessing → Exploratory data analysis → Model training → Model evaluation and comparison → Model interpretation → Recommendation generation → Streamlit system implementation and testing. 3.3 Data Source and Collection This section describes the dataset that will be used in the study, its attributes, and the procedure for acquiring the data. 3.3.1 Description of the Data Source The study will use the Pima Indians Diabetes Database, a publicly available dataset commonly used in diabetes prediction research. The dataset contains 768 observations collected from female patients aged 21 years and above who are of Pima Indian heritage. It contains health-related measurements that can be used to develop cl",
+    "source": "vincent proposal.pdf",
+    "page": 32
+  },
+  {
+    "id": 126,
+    "text": "d from female patients aged 21 years and above who are of Pima Indian heritage. It contains health-related measurements that can be used to develop classification models for predicting the diabetes outcome. The dataset is suitable for this study because it contains numerical attributes associated with diabetes and a binary target variable indicating the recorded outcome. However, its population is specific to the original study and does not represent the Kenyan population or all adults. Therefore, the developed system will be treated as a research prototype rather than a clinically validated tool for the general population.",
+    "source": "vincent proposal.pdf",
+    "page": 32
+  },
+  {
+    "id": 127,
+    "text": "26 3.3.2 Description of Dataset Attributes The dataset contains eight input attributes and one target variable. The input attributes describe demographic and health-related characteristics, while the target variable represents the recorded diabetes outcome. Attribute Description Pregnancies Number of times the individual has been pregnant. Glucose Plasma glucose concentration. BloodPressure Diastolic blood pressure measurement. SkinThickness Triceps skin fold thickness measurement. Insulin Two-hour serum insulin measurement. BMI Body Mass Index, representing weight relative to height. DiabetesPedigreeFunction A measure associated with family history of diabetes. Age Age of the individual in years. Outcome Target variable indicating the recorded diabetes outcome, where 0 represents a negati",
+    "source": "vincent proposal.pdf",
+    "page": 33
+  },
+  {
+    "id": 128,
+    "text": "history of diabetes. Age Age of the individual in years. Outcome Target variable indicating the recorded diabetes outcome, where 0 represents a negative outcome and 1 represents a positive outcome. The eight input attributes will be used as predictors during model development, while the Outcome variable will serve as the target for classification.",
+    "source": "vincent proposal.pdf",
+    "page": 33
+  },
+  {
+    "id": 129,
+    "text": "27 3.3.3 Data Acquisition Techniques The dataset will be acquired from a publicly accessible data repository. It will be downloaded in CSV format and imported into the Python development environment using the Pandas library. After acquisition, the dataset will be checked to confirm that the expected attributes are present and that the target variable is correctly identified. The original data will be retained separately to support comparison with the cleaned dataset and maintain the integrity of the analysis. 3.4 Data Preprocessing and Preparation Data preprocessing will be conducted to improve data quality and prepare the dataset for machine learning. The process will involve inspecting the dataset, identifying data quality issues, handling missing or invalid values, examining outliers, t",
+    "source": "vincent proposal.pdf",
+    "page": 34
+  },
+  {
+    "id": 130,
+    "text": " learning. The process will involve inspecting the dataset, identifying data quality issues, handling missing or invalid values, examining outliers, transforming features where necessary, and splitting the data into training and testing sets. 3.4.1 Data Inspection and Exploration The initial inspection will involve examining the structure and characteristics of the dataset. Python libraries such as Pandas and NumPy will be used to determine the number of observations, number of attributes, data types, and presence of missing values. The inspection will also include checking for duplicate records, identifying unusual values, and examining the distribution of the target variable. This step will help establish the condition of the original dataset before further preprocessing is performed.",
+    "source": "vincent proposal.pdf",
+    "page": 34
+  },
+  {
+    "id": 131,
+    "text": "distribution of the target variable. This step will help establish the condition of the original dataset before further preprocessing is performed.",
+    "source": "vincent proposal.pdf",
+    "page": 34
+  },
+  {
+    "id": 132,
+    "text": "28 3.4.2 Data Cleaning Methods Data cleaning will involve identifying and addressing inconsistencies that may affect model development. Duplicate records, incorrect data types, and values outside reasonable measurement ranges will be examined. Where duplicate observations are identified, their effect on the analysis will be assessed before removal. Data types will also be checked to ensure that numerical attributes are correctly represented. Cleaning decisions will be documented to maintain transparency throughout the research process. 3.4.3 Handling Missing and Invalid Values The dataset may contain zero values in some health-related attributes, including Glucose, BloodPressure, SkinThickness, Insulin, and BMI. Since zero may represent an unrecorded or invalid measurement for these attrib",
+    "source": "vincent proposal.pdf",
+    "page": 35
+  },
+  {
+    "id": 133,
+    "text": "tes, including Glucose, BloodPressure, SkinThickness, Insulin, and BMI. Since zero may represent an unrecorded or invalid measurement for these attributes, such values will be investigated before being treated as missing data. The Pregnancies attribute will not be treated in the same way because zero pregnancies is a valid value. After inspection, missing or invalid values will be handled using an appropriate imputation method. Median imputation may be considered because it is less affected by extreme values than mean imputation. The imputation values will be calculated using the training data only and then applied to the testing data to prevent information leakage. The final handling method will be determined by the observed condition of the dataset.",
+    "source": "vincent proposal.pdf",
+    "page": 35
+  },
+  {
+    "id": 134,
+    "text": "ent information leakage. The final handling method will be determined by the observed condition of the dataset.",
+    "source": "vincent proposal.pdf",
+    "page": 35
+  },
+  {
+    "id": 135,
+    "text": "29 3.4.4 Outlier Detection and Handling Outliers will be examined to identify unusually high or low measurements that may influence model performance. Descriptive statistics and box plots will be used to inspect the distribution of numerical attributes. The Interquartile Range (IQR) method may also be used to identify potential outliers. Identified outliers will not automatically be removed because some extreme health measurements may represent genuine observations. Their validity and possible influence on the models will be considered before deciding whether any treatment is necessary. 3.4.5 Data Transformation and Feature Scaling Data transformation will be conducted where necessary to make the dataset suitable for model development. Logistic Regression is sensitive to differences in the",
+    "source": "vincent proposal.pdf",
+    "page": 36
+  },
+  {
+    "id": 136,
+    "text": "formation will be conducted where necessary to make the dataset suitable for model development. Logistic Regression is sensitive to differences in the scale of numerical features; therefore, feature standardisation will be applied to its input variables. Random Forest is generally less sensitive to differences in feature scales because it uses decision-tree-based splitting. However, both models will use the same cleaned input attributes to ensure a fair comparison. The preprocessing operations will be fitted using the training data and subsequently applied to the testing data. This will help prevent data leakage and ensure that the testing data remains independent during model evaluation.",
+    "source": "vincent proposal.pdf",
+    "page": 36
+  },
+  {
+    "id": 137,
+    "text": "30 3.4.6 Data Splitting and Class Distribution The prepared dataset will be divided into training and testing sets using an 80:20 ratio. The training set will be used to develop the machine learning models, while the testing set will be reserved for evaluating their performance on unseen observations. Stratified splitting will be applied to maintain approximately the same proportion of positive and negative outcomes in both sets. The class distribution will also be examined to determine whether there is an imbalance that may influence model evaluation. 3.5 Exploratory Data Analysis Exploratory Data Analysis (EDA) will be conducted to understand the characteristics and distribution of the dataset before model development. It will help identify patterns, relationships, and potential issues w",
+    "source": "vincent proposal.pdf",
+    "page": 37
+  },
+  {
+    "id": 138,
+    "text": "nd the characteristics and distribution of the dataset before model development. It will help identify patterns, relationships, and potential issues within the input attributes. 3.5.1 Descriptive Statistical Analysis Descriptive statistical analysis will be used to summarise the numerical attributes in the dataset. Measures such as mean, median, standard deviation, minimum, and maximum values will be examined. Histograms and other suitable visualisations will be used to understand the distribution of individual attributes. This analysis will provide an overview of the dataset and help identify unusual distributions or values that may require further investigation.",
+    "source": "vincent proposal.pdf",
+    "page": 37
+  },
+  {
+    "id": 139,
+    "text": "31 3.5.2 Analysis of Relationships Between Variables The relationships between the input attributes will be examined to understand how the variables are associated with one another and with the diabetes outcome. Correlation analysis will be used to identify possible relationships among numerical features. Correlation heatmaps and suitable comparative visualisations will be used to present the observed relationships. These findings will support the understanding of the dataset but will not be interpreted as evidence that one variable causes diabetes. 3.5.3 Identification of Relevant Features Relevant features will be examined based on their statistical characteristics, relationships with the target variable, and contribution to model predictions. The eight original input attributes will ini",
+    "source": "vincent proposal.pdf",
+    "page": 38
+  },
+  {
+    "id": 140,
+    "text": "atistical characteristics, relationships with the target variable, and contribution to model predictions. The eight original input attributes will initially be retained for model development. After training, model interpretation techniques, particularly SHAP, will be used to examine how the different attributes contribute to the predictions. This will help identify features that have greater influence on the model's outputs. Feature contribution will be interpreted as model behaviour rather than proof of medical causation. 3.5.4 Tools and Software Used The study will use Python as the main programming language for data analysis and machine learning development. The following libraries and tools will support the research:",
+    "source": "vincent proposal.pdf",
+    "page": 38
+  },
+  {
+    "id": 141,
+    "text": "arning development. The following libraries and tools will support the research:",
+    "source": "vincent proposal.pdf",
+    "page": 38
+  },
+  {
+    "id": 142,
+    "text": "32 Tool or Library Purpose Python Main programming language. Pandas Data loading, manipulation, and cleaning. NumPy Numerical operations and data processing. Matplotlib Data visualisation. Seaborn Statistical visualisation and correlation heatmaps. Scikit-learn Data preprocessing, model development, and evaluation. SHAP Interpretation of machine learning predictions. Nextjs Development of the system user interface. 3.6 Machine Learning Model Development This section describes the machine learning algorithms that will be developed to predict the diabetes outcome. The study will use Logistic Regression and Random Forest as the two classification models. 3.6.1 Model Selection Logistic Regression and Random Forest have been selected because they provide two different approaches to classificati",
+    "source": "vincent proposal.pdf",
+    "page": 39
+  },
+  {
+    "id": 143,
+    "text": "n models. 3.6.1 Model Selection Logistic Regression and Random Forest have been selected because they provide two different approaches to classification. Logistic Regression estimates the probability of an outcome using a mathematical relationship between input features and the target variable. Random Forest combines multiple decision trees to produce a classification result. Using these two models will allow the study to compare a relatively simple and interpretable classification algorithm with an ensemble-based algorithm. The comparison will help",
+    "source": "vincent proposal.pdf",
+    "page": 39
+  },
+  {
+    "id": 144,
+    "text": "33 determine which model provides more suitable predictive performance on the selected dataset. 3.6.2 Logistic Regression Model Development Logistic Regression will be developed as the first classification model. It is a supervised learning algorithm commonly used for binary classification problems. In this study, it will estimate the probability of a positive diabetes outcome based on the eight input attributes. The model will be trained using the prepared training dataset. Feature scaling will be applied to the input variables as part of the preprocessing pipeline. The model will produce probability estimates that can be converted into binary predictions using a classification threshold. The trained model will later be evaluated using the reserved testing dataset to determine its predict",
+    "source": "vincent proposal.pdf",
+    "page": 40
+  },
+  {
+    "id": 145,
+    "text": "ry predictions using a classification threshold. The trained model will later be evaluated using the reserved testing dataset to determine its predictive performance. 3.6.3 Random Forest Model Development Random Forest will be developed as the second classification model. It is an ensemble learning algorithm that combines predictions from multiple decision trees to produce a final classification result. Each decision tree will learn patterns from the training data, while the ensemble process will combine their outputs to improve prediction stability. The model will use the same input attributes and training observations as Logistic Regression to support a fair comparison.",
+    "source": "vincent proposal.pdf",
+    "page": 40
+  },
+  {
+    "id": 146,
+    "text": "34 The trained Random Forest model will also be evaluated using the reserved testing dataset. Its performance and feature contribution information will be examined alongside the results from Logistic Regression. 3.6.4 Model Training and Testing The two models will be trained using the training portion of the prepared dataset. The same training and testing split will be maintained for both algorithms to ensure consistency during evaluation. After training, each model will generate predictions on the testing dataset. The predicted outcomes will be compared with the actual target values to determine how accurately the models classify the observations. The testing data will not be used to fit the models or their preprocessing procedures. This separation will provide a more reliable estimate of",
+    "source": "vincent proposal.pdf",
+    "page": 41
+  },
+  {
+    "id": 147,
+    "text": "tions. The testing data will not be used to fit the models or their preprocessing procedures. This separation will provide a more reliable estimate of performance on unseen observations. 3.6.5 Model Configuration and Parameter Selection The models will be configured using the Scikit-learn library. Logistic Regression will be configured with suitable solver and iteration settings to support model convergence. Random Forest will be configured using parameters such as the number of decision trees, maximum tree depth, and minimum samples required for splitting or forming a leaf. Initial parameter values will be selected based on the requirements of the dataset and the computational resources available. Where necessary, suitable parameter selection techniques may be applied using the training d",
+    "source": "vincent proposal.pdf",
+    "page": 41
+  },
+  {
+    "id": 148,
+    "text": "of the dataset and the computational resources available. Where necessary, suitable parameter selection techniques may be applied using the training data. The final parameter settings will be documented and kept consistent with the implemented code.",
+    "source": "vincent proposal.pdf",
+    "page": 41
+  },
+  {
+    "id": 149,
+    "text": "35 3.7 Model Evaluation and Comparison Model evaluation will be conducted to determine how effectively Logistic Regression and Random Forest predict the diabetes outcome. Both models will be evaluated using the same testing dataset and appropriate classification metrics. 3.7.1 Evaluation Metrics The study will use several classification metrics to assess model performance. These will include: • Accuracy: Measures the proportion of all predictions that are correctly classified. • Precision: Measures the proportion of positive predictions that are actually positive. • Recall: Measures the proportion of actual positive observations correctly identified by the model. • F1-score: Represents the harmonic mean of precision and recall. • Specificity: Measures the proportion of actual negative obse",
+    "source": "vincent proposal.pdf",
+    "page": 42
+  },
+  {
+    "id": 150,
+    "text": "ntified by the model. • F1-score: Represents the harmonic mean of precision and recall. • Specificity: Measures the proportion of actual negative observations correctly identified. • ROC-AUC: Measures the model's ability to distinguish between positive and negative classes across different classification thresholds. Using several metrics will provide a broader assessment of model performance, particularly where the dataset contains unequal numbers of positive and negative observations.",
+    "source": "vincent proposal.pdf",
+    "page": 42
+  },
+  {
+    "id": 151,
+    "text": "36 3.7.2 Confusion Matrix Analysis A confusion matrix will be generated for each model to examine the relationship between actual and predicted classifications. It will show four possible outcomes: true positives, true negatives, false positives, and false negatives. The confusion matrix will help identify the types of classification errors made by each model. Particular attention will be given to false negatives because they represent positive observations that the model incorrectly classifies as negative. 3.7.3 Model Performance Comparison The performance of Logistic Regression and Random Forest will be compared using the selected evaluation metrics. Their accuracy, precision, recall, F1-score, specificity, and ROC-AUC values will be examined to determine their strengths and weaknesses. ",
+    "source": "vincent proposal.pdf",
+    "page": 43
+  },
+  {
+    "id": 152,
+    "text": "n metrics. Their accuracy, precision, recall, F1-score, specificity, and ROC-AUC values will be examined to determine their strengths and weaknesses. The comparison will consider the balance between identifying positive cases and avoiding incorrect positive predictions. Accuracy alone will not be used to determine the better model because it may not provide a complete picture of classification performance. 3.7.4 Selection of the Best Performing Model The best-performing model will be selected based on the overall evaluation results. Greater consideration will be given to the balance between recall, precision, F1-score, and ROC AUC, alongside the confusion matrix results.",
+    "source": "vincent proposal.pdf",
+    "page": 43
+  },
+  {
+    "id": 153,
+    "text": "37 The selected model will be integrated into the Streamlit application. The selection will be based on its performance on the testing dataset and will not be interpreted as evidence of clinical suitability or diagnostic accuracy in the general population. 3.8 Model Interpretation and Recommendation Development This section describes how model predictions will be interpreted and how the recommendation component will be developed. The system will combine machine learning predictions with general lifestyle guidance based on predefined rules. 3.8.1 Identification of Important Prediction Factors SHAP will be used to interpret the contribution of input features to the predictions made by the selected model. It provides a way of explaining model outputs by estimating how individual features cont",
+    "source": "vincent proposal.pdf",
+    "page": 44
+  },
+  {
+    "id": 154,
+    "text": "input features to the predictions made by the selected model. It provides a way of explaining model outputs by estimating how individual features contribute to a prediction. Global SHAP explanations will be used to examine the overall importance of features across observations, while individual explanations will help show how input attributes contribute to a particular prediction. The results will help make the model's behaviour more understandable to users. However, SHAP explanations will be interpreted as contributions to model predictions rather than proof that a particular factor causes diabetes. 3.8.2 Development of the Rule-Based Recommendation Component A rule-based recommendation component will be developed to generate general lifestyle recommendations based on selected input facto",
+    "source": "vincent proposal.pdf",
+    "page": 44
+  },
+  {
+    "id": 155,
+    "text": "endation Component A rule-based recommendation component will be developed to generate general lifestyle recommendations based on selected input factors. Unlike the prediction component, this",
+    "source": "vincent proposal.pdf",
+    "page": 44
+  },
+  {
+    "id": 156,
+    "text": "38 component will not use a trained machine learning algorithm. Instead, it will apply predefined conditions to the user's input values. The rules will be designed to identify selected factors that may require attention and associate them with relevant general lifestyle guidance. The recommendation component will operate separately from the prediction model while using the same input information. 3.8.3 Mapping Risk Factors to Lifestyle Recommendations The recommendation component will map selected health-related factors to general lifestyle guidance. For example, an elevated BMI may trigger guidance on maintaining a healthy weight through balanced nutrition and physical activity. An elevated glucose measurement may trigger advice to seek assessment from a qualified healthcare professional.",
+    "source": "vincent proposal.pdf",
+    "page": 45
+  },
+  {
+    "id": 157,
+    "text": "anced nutrition and physical activity. An elevated glucose measurement may trigger advice to seek assessment from a qualified healthcare professional. The recommendations will be presented in simple language and will be based on predefined rules. They will not prescribe medication, provide treatment, or replace professional medical assessment. The system will communicate that its predictions and recommendations are intended for educational and research purposes. 3.8.4 Generation of Prediction and Recommendation Reports The system will generate a report containing the model's prediction, relevant input information, selected feature explanations, and the lifestyle recommendations produced by the rule-based component. The report will present the results in a clear format to help users underst",
+    "source": "vincent proposal.pdf",
+    "page": 45
+  },
+  {
+    "id": 158,
+    "text": "s, and the lifestyle recommendations produced by the rule-based component. The report will present the results in a clear format to help users understand the system's output. It will also include a disclaimer explaining that the system is a research prototype and should not be used as a substitute for professional medical advice or diagnosis.",
+    "source": "vincent proposal.pdf",
+    "page": 45
+  },
+  {
+    "id": 159,
+    "text": "39 3.9 System Design and Implementation This section describes the design and implementation of the proposed diabetes risk prediction and recommendation system. The system will be developed as a prototype application that allows users to provide input values and receive prediction results and general lifestyle guidance. 3.9.1 System Architecture The system will follow a modular architecture consisting of an input interface, data preprocessing component, prediction component, interpretation component, recommendation component, and output interface. The input interface will collect the required health-related attributes from the user. The preprocessing component will prepare the input data using the same transformations applied during model training. The selected machine learning model will ",
+    "source": "vincent proposal.pdf",
+    "page": 46
+  },
+  {
+    "id": 160,
+    "text": "ocessing component will prepare the input data using the same transformations applied during model training. The selected machine learning model will then generate a prediction. The interpretation component will provide information about the contribution of relevant input features, while the recommendation component will apply predefined rules to generate lifestyle guidance. Finally, the output interface will display the prediction, explanations, and recommendations. 3.9.2 System Development Tools and Technologies Python will be used as the main development language. Scikit-learn will support model training and prediction, while Pandas and NumPy will support data processing. SHAP will be used for model interpretation, and a website will provide the interactive user interface.",
+    "source": "vincent proposal.pdf",
+    "page": 46
+  },
+  {
+    "id": 161,
+    "text": "mPy will support data processing. SHAP will be used for model interpretation, and a website will provide the interactive user interface.",
+    "source": "vincent proposal.pdf",
+    "page": 46
+  },
+  {
+    "id": 162,
+    "text": "40 The trained model and required preprocessing objects will be saved for reuse during application execution. This will allow the application to generate predictions without retraining the models whenever a user submits new input values. 3.9.3 Integration of the Selected Model After model evaluation, the selected model will be saved and integrated into the application. The preprocessing steps used during training will also be saved to ensure that new input data is transformed consistently. When a user submits information, the system will validate the input values, apply the saved preprocessing operations, and pass the prepared data to the selected model. The prediction result will then be forwarded to the interpretation and recommendation components where applicable. 3.9.4 Development of t",
+    "source": "vincent proposal.pdf",
+    "page": 47
+  },
+  {
+    "id": 163,
+    "text": "ected model. The prediction result will then be forwarded to the interpretation and recommendation components where applicable. 3.9.4 Development of the User Interface Using Javascript Javascript will be used to develop the user interface because it supports the development of interactive Python applications. The interface will contain input fields for the eight dataset attributes, allowing users to provide the required information. After submission, the application will display the model's prediction and relevant explanatory information. It will also present lifestyle recommendations generated by the rule-based component. The interface will be designed to ensure that the results are understandable and that the limitations of the system are clearly communicated.",
+    "source": "vincent proposal.pdf",
+    "page": 47
+  },
+  {
+    "id": 164,
+    "text": "be designed to ensure that the results are understandable and that the limitations of the system are clearly communicated.",
+    "source": "vincent proposal.pdf",
+    "page": 47
+  },
+  {
+    "id": 165,
+    "text": "41 3.9.5 System Testing System testing will be conducted to confirm that the application components work as expected. The testing process will examine input validation, data preprocessing, prediction generation, model interpretation, recommendation generation, and display of results. Different input combinations will be used to check whether the system processes valid inputs and handles invalid or incomplete values appropriately. The testing will also verify that the integrated model produces outputs consistent with the saved model and preprocessing procedures. 3.10 Ethical Considerations The study will consider ethical issues relating to the use of health-related data, prediction results, and recommendations. Although the dataset is publicly available, responsible data handling and commun",
+    "source": "vincent proposal.pdf",
+    "page": 48
+  },
+  {
+    "id": 166,
+    "text": " use of health-related data, prediction results, and recommendations. Although the dataset is publicly available, responsible data handling and communication of the system's limitations will remain important throughout the research. 3.10.1 Data Privacy and Security The study will use a publicly available secondary dataset and will not involve direct collection of personal medical records from patients. The dataset will be used strictly for academic research and system development. Any information entered into the prototype will be handled responsibly. The application will avoid collecting unnecessary personal identifiers and will not present itself as a clinical medical service.",
+    "source": "vincent proposal.pdf",
+    "page": 48
+  },
+  {
+    "id": 167,
+    "text": "42 3.10.2 Responsible Use of Health Predictions The system will communicate that its predictions are estimates generated by machine learning models using patterns learned from the selected dataset. The predictions will not be treated as confirmed medical diagnoses. Users will be advised to consult qualified healthcare professionals for medical assessment and decisions. The limitations of the dataset, including its specific population characteristics, will also be communicated to avoid misleading users about the general applicability of the model. 3.10.3 Ethical Implications of the Recommendation System The recommendation component will provide general lifestyle guidance and will not prescribe medication or recommend specific medical treatments. Recommendations will be presented in a respon",
+    "source": "vincent proposal.pdf",
+    "page": 49
+  },
+  {
+    "id": 168,
+    "text": "e general lifestyle guidance and will not prescribe medication or recommend specific medical treatments. Recommendations will be presented in a responsible manner, with clear communication that individual health decisions should be discussed with qualified healthcare professionals. The system will also avoid making unsupported claims about the ability of lifestyle recommendations to prevent or cure diabetes. This will help reduce the risk of users relying on automated guidance in place of professional medical care. 3.11 Research Limitations The study may encounter limitations arising from the selected dataset, the machine learning algorithms, and the methodology used. These limitations will be considered when interpreting the findings and evaluating the developed system.",
+    "source": "vincent proposal.pdf",
+    "page": 49
+  },
+  {
+    "id": 169,
+    "text": " and the methodology used. These limitations will be considered when interpreting the findings and evaluating the developed system.",
+    "source": "vincent proposal.pdf",
+    "page": 49
+  },
+  {
+    "id": 170,
+    "text": "43 3.11.1 Potential Dataset Biases The Pima Indians Diabetes Database contains observations from a specific population of female patients aged 21 years and above who are of Pima Indian heritage. Consequently, the dataset may contain population-specific patterns that may not apply to other demographic groups. This limitation may affect the generalisability of the developed model, particularly when considering its use in different populations, including the Kenyan population. The model will therefore be evaluated within the context of the selected dataset rather than assumed to perform equally well across all populations. 3.11.2 Limitations of the Selected Dataset The dataset contains a limited number of observations and only eight input attributes. Other factors that may influence diabetes ",
+    "source": "vincent proposal.pdf",
+    "page": 50
+  },
+  {
+    "id": 171,
+    "text": "the Selected Dataset The dataset contains a limited number of observations and only eight input attributes. Other factors that may influence diabetes risk, such as broader lifestyle, environmental, and medical history information, are not fully represented. The dataset may also contain missing or invalid measurements that require careful preprocessing. These limitations may influence the patterns learned by the models and the reliability of their predictions. 3.11.3 Limitations of the Models and Methodology The study will evaluate only Logistic Regression and Random Forest. Although these models provide different classification approaches, other machine learning algorithms may produce different results.",
+    "source": "vincent proposal.pdf",
+    "page": 50
+  },
+  {
+    "id": 172,
+    "text": "her machine learning algorithms may produce different results.",
+    "source": "vincent proposal.pdf",
+    "page": 50
+  },
+  {
+    "id": 173,
+    "text": "44 The performance of the models will also depend on the quality of the dataset, preprocessing decisions, and selected parameter settings. In addition, the recommendation component will use predefined rules rather than clinically validated personalised treatment recommendations. The system will therefore be considered an academic prototype for diabetes outcome prediction and general lifestyle guidance. It will not be presented as a clinically validated diagnostic system. 3.12 Chapter Summary This chapter has presented the methodology that will guide the development of the diabetes risk prediction and recommendation system. It has described the research design, data source, dataset attributes, data preprocessing procedures, exploratory data analysis, machine learning model development, eval",
+    "source": "vincent proposal.pdf",
+    "page": 51
+  },
+  {
+    "id": 174,
+    "text": "e research design, data source, dataset attributes, data preprocessing procedures, exploratory data analysis, machine learning model development, evaluation techniques, model interpretation, recommendation development, and system implementation. 3.12.1 Recap of the Methodological Steps The study will begin by acquiring and inspecting the Pima Indians Diabetes Database. The data will then undergo cleaning, preprocessing, and exploratory analysis before being divided into training and testing sets. Logistic Regression and Random Forest will be developed and evaluated using classification metrics. The selected model will be interpreted using SHAP, while a rule-based component will generate general lifestyle recommendations. Finally, the selected model and supporting components will be integra",
+    "source": "vincent proposal.pdf",
+    "page": 51
+  },
+  {
+    "id": 175,
+    "text": "P, while a rule-based component will generate general lifestyle recommendations. Finally, the selected model and supporting components will be integrated into a Streamlit application and tested.",
+    "source": "vincent proposal.pdf",
+    "page": 51
+  },
+  {
+    "id": 176,
+    "text": "45 3.12.2 Justification of the Selected Methods The selected methods provide a structured approach to achieving the study objectives. The use of a publicly available dataset makes the research manageable, while the two classification algorithms allow comparison of different machine learning approaches. The selected evaluation metrics provide a broader assessment of predictive performance, and SHAP supports the interpretation of model outputs. Then an AI recommendation component provides an understandable way of generating general lifestyle guidance without introducing another trained model. website will support the development of an interactive prototype that brings the prediction, interpretation, and recommendation components together.",
+    "source": "vincent proposal.pdf",
+    "page": 52
+  },
+  {
+    "id": 177,
+    "text": "ve prototype that brings the prediction, interpretation, and recommendation components together.",
+    "source": "vincent proposal.pdf",
+    "page": 52
+  },
+  {
+    "id": 178,
+    "text": "46 REFERENCES Alejandro c. (2023). Report of people living with diabetes. Alejandro c, Lucia A. (2023). Report of people living with diabetes. World Health Organization(WHO). Andreia Pinto, Diogo Martinho, Joao Matos, David Greer, Ana Viera, Andr´e Ramalho,. (2023, 6 4). Recommendation systems to promote behavior change in patients with diabetes mellitus type 2: A systematic review . doi:10.1016/j.eswa.2023.120726 Cho, N. H. Shaw, J. E., Karuranga, S., Huang, Y., da Rocha Fernandes, J. D., Ohlrogge, A. W., Malanda, B.;. (2018). IDF Diabetes Atlas: Global estimates of diabetes prevalence for 2017 and projections for 2045. Diabetes Research and Clinical Practice, 287-290. Duncan, Bruce B, Magliano, Dianna J, Boyko, Edward J. (2026). IDF Diabetes Atlas 11th edition 2025: global prevalence and",
+    "source": "vincent proposal.pdf",
+    "page": 53
+  },
+  {
+    "id": 179,
+    "text": " Clinical Practice, 287-290. Duncan, Bruce B, Magliano, Dianna J, Boyko, Edward J. (2026). IDF Diabetes Atlas 11th edition 2025: global prevalence and projections for 2050. Nephrol Dial Transplant, 289. doi:10.1093/ndt/gfaf177 Fregoso-Aparicio Luis, Noguez Julieta, Montesinos Luis,García-García José A. (2021). Machine learning and deep learning predictive models for type 2 diabetes: a systematic review. Diabetology & Metabolic Syndrome 2021 13:1, 148. doi:10.1186/S13098-021-00767-9 IDF Diabetes Atlas: Global estimates of the prevalence of diabetes for 2011 and 2030. (2023). Diabetes Research and Clinical Practice, 84. doi:10.1016/J.DIABRES.2011.10.029 Ioannis Kavakiotisa, Olga Tsavec, Athanasios Salifoglouc, Nicos Maglaveras, Loannis Vlahavasa, loanna Chouvard. (2017). Machine Learning and",
+    "source": "vincent proposal.pdf",
+    "page": 53
+  },
+  {
+    "id": 180,
+    "text": "11.10.029 Ioannis Kavakiotisa, Olga Tsavec, Athanasios Salifoglouc, Nicos Maglaveras, Loannis Vlahavasa, loanna Chouvard. (2017). Machine Learning and Data Mining Methods in Diabetes Research. doi:10.1016/j.csbj.2016.12.005 Jack W Smith, JE Everhart, WC Dickson, WC Knowler, RS Johannes. (n.d.). Using the ADAP learning algorithm to forecast the onset of diabetes mellitus.",
+    "source": "vincent proposal.pdf",
+    "page": 53
+  },
+  {
+    "id": 181,
+    "text": "47 Jun-Jie Zhu ; Meiqi Yang; Zhiyong Jason Ren. (2023). Machine learning in environmental research: common pitfalls and best practices. doi:10.1021/acs.est.3c00026 KENYA NATIONAL CLINICAL GUIDELINES FOR THE MANAGEMENT OF DIABETES MELLITUS KENYA NATIONAL CLINICAL GUIDELINES FOR THE MANAGEMENT OF DIABETES MELLITUS Republic of Kenya. (n.d.). Lucia A, Alejandro c. (2023). Report of the WHO discussion group for people living with diabetes: - World Health Organization -. Retrieved 10 4, 2026, from https://books.google.co.ke/books?hl=en&lr=&id=B6QOEQAAQBAJ&oi=fnd&pg= PR4&dq=World+Health+Organization+(2023+diabetes&ots=94b9248IPI&sig=ySN q_Xmk1LIRKNo0TC_X i4XptE&redir_esc=y#v=onepage&q=World%20Health%20Organization%20(2023 %20diabetes&f=false Lundberg, Scott M and Lee, Su-In. (2017). A Unified App",
+    "source": "vincent proposal.pdf",
+    "page": 54
+  },
+  {
+    "id": 182,
+    "text": "0TC_X i4XptE&redir_esc=y#v=onepage&q=World%20Health%20Organization%20(2023 %20diabetes&f=false Lundberg, Scott M and Lee, Su-In. (2017). A Unified Approach to Interpreting Model Predictions (Vol. 30). Curran Associates, Inc. Retrieved 11 4, 2026, from https://proceedings.neurips.cc/paper_files/paper/2017/file/8a20a8621978632d76c43d fd28b67767-Paper.pdf Mahmud Isnan a, Gregorius Natanael Elwirehardja, Bens Pardamean. (2024). A review: Data pre-processing techniques used for diabetes prediction. Retrieved from https://creativecommons.org/licenses/by-nc-nd/4.0/ Masood Saleha, Mousa, ·,Al-Bashrawi Ahmad Muhammad, Khan Attique, Dwivedi, Yogesh K. (n.d.). From data to diagnosis: a systematic review on AI-driven approaches to diabetes prediction. doi:10.1007/s10462-025-11485-3 Matshidiso, D. (202",
+    "source": "vincent proposal.pdf",
+    "page": 54
+  },
+  {
+    "id": 183,
+    "text": "(n.d.). From data to diagnosis: a systematic review on AI-driven approaches to diabetes prediction. doi:10.1007/s10462-025-11485-3 Matshidiso, D. (2022). Atlas of Africa Health Statistics. Mohamed, Shukri F, Mwangi, Martin, Mutua Martin K, Kibachio Joseph, Hussein Abubakar, Ndegwa Zachary, Owondo Scholastica, Asiki Gershim, Kyobutungi Catherine. (n.d.). Prevalence and factors associated with pre-diabetes and diabetes mellitus in Kenya: results from a national survey. doi:10.1186/s12889-018-6053-x Onwujekwe O, Okeibunor J,Usman A, Olu O. (2025). WHO African region reforms: aligning country offices to strengthen health systems to meet global health",
+    "source": "vincent proposal.pdf",
+    "page": 54
+  },
+  {
+    "id": 184,
+    "text": "48 objectives. Frontiers in Public Health, 13, 1750. doi:10.3389/FPUBH.2025.1709533/TEXT Stephen D. Bay, Dennis Kibler, Michael J. Pazzani, Padhraic Smyth. (n.d.). The UCI KDD archive of large data sets for data mining research and experimentation. 2, 80-85. doi:10.1145/380995.381030 Whiting, David R., Guariguata, Leonor, Weil, Clara, Shaw, Jonathan. (2025). IDF Diabetes Atlas: Global estimates of the prevalence of diabetes for 2011 and 2030. Diabetes Research and Clinical Practice, 311-327. doi:10.1016/J.DIABRES.2011.10.029",
+    "source": "vincent proposal.pdf",
+    "page": 55
+  },
+  {
+    "id": 185,
+    "text": "49 APPENDICES Proposed project budget Item Description cost (KSh) Internet bundles Research, downloading data and development 2,000 Electricity Laptop charging and project work 800 Printing Proposal, progress reports and final report drafts 1,200 Binding Final project report 700 Stationery Pens, notebooks and other materials 500 Transport Occasional academic consultations and project-related travel 1,500 Contingency Unexpected project expenses 1,300 Total 8,000 Work plan Activity W1 W2 W3 W4 W5 W6 W7 W8 W9 W10 W11 W12",
+    "source": "vincent proposal.pdf",
+    "page": 56
+  },
+  {
+    "id": 186,
+    "text": "50 Literature review and requirements analysis ✓ ✓ Dataset acquisition and understanding ✓ Data inspection, cleaning and preprocessing ✓ ✓ Exploratory data analysis ✓ ✓ Logistic Regression development ✓ ✓ Random Forest development ✓ ✓ Model evaluation and comparison ✓ ✓ SHAP model interpretation ✓ ✓ Rule-based recommendation development ✓ ✓ Streamlit interface design and implementation ✓ ✓ System integration and testing ✓ ✓ Final report writing and presentation preparation ✓ ✓ Expected project outputs by phase • Weeks 1–2: Reviewed literature, defined requirements and acquired dataset. • Weeks 3–5: Cleaned dataset and completed exploratory analysis. • Weeks 5–7: Developed Logistic Regression and Random Forest models. • Weeks 7–9: Evaluated models and interpreted predictions using SHAP. • W",
+    "source": "vincent proposal.pdf",
+    "page": 57
+  },
+  {
+    "id": 187,
+    "text": "alysis. • Weeks 5–7: Developed Logistic Regression and Random Forest models. • Weeks 7–9: Evaluated models and interpreted predictions using SHAP. • Weeks 9–10: Developed the rule-based recommendation component. • Weeks 10–12: Implemented and tested the web application, completed documentation and prepared the final presentation.",
+    "source": "vincent proposal.pdf",
+    "page": 57
+  }
+]

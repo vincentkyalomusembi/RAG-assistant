@@ -1,9 +1,11 @@
-pymupdf
-sentence-transformers
-chromadb
-langchain
-langchain-community
+--extra-index-url https://download.pytorch.org/whl/cpu
+
 streamlit
+sentence-transformers
+torch
 python-dotenv
-fastapi
-uvicorn
+anthropic 
+ipykernel
+PyMuPDF
+faiss-cpu
+numpy
